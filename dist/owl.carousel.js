@@ -1884,7 +1884,8 @@ settings.lazyLoadEager && (position -= settings.lazyLoadEager);
 	 * @public
 	 */
 	Lazy.Defaults = {
-		lazyLoad: false
+		lazyLoad: false,
+		lazyLoadEager: 1
 	};
 
 	/**
